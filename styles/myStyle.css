@@ -1,0 +1,378 @@
+body {
+    direction: rtl;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.c1-0-0 {
+    height: 600px;
+    background-image: url(../image/bacrund.png);
+}
+
+.c2-4-0, .c3-4-0 {
+    height: 600px;
+    background-image: url(../image/bacrund.png);
+}
+
+.c3-0-0 {
+    height: 950px;
+    background-image: url(../image/bacrund.png);
+}
+.c3-1-0 , .c2-1-0
+ {
+    height: 620px;
+    background-image: url(../image/bacrund.png);
+}
+
+
+/*תחילת אדר*/
+#header {
+    background-color: black;
+    width: 900px;
+    height: 70px;
+}
+
+    #header h1 {
+        color: #e9f300;
+        float: left;
+        font-size: 48pt;
+        font-weight: bold;
+    }
+
+#logo {
+    display: inline-block;
+    background-image: url(../image/logo-01.png);
+    width: 200px;
+    height: 70px;
+    background-size: 100% 100%;
+}
+/*סוף אדר*/
+
+/*התחלה של פוטר*/
+.fo3-0-0 {
+    margin-top: 400px;
+}
+
+.fo2-4-0, .fo3-4-0 {
+    margin-top: 100px;
+}
+.fo3-1-0, .fo2-1-0 {
+    margin-top: 40px;
+}
+
+#footer {
+    background-color: #2f2f2f;
+    width: 900px;
+    height: 50px;
+    /*margin-top: 100px;*/
+}
+
+#text_footer {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #9f9f9f;
+}
+
+#facbook {
+    background-image: url(../image/facbook.png);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+/*סוף של פוטר*/
+
+/*התחלת שורת ניווט*/
+.nav1 {
+    padding-bottom: 50px;
+}
+
+.here {
+
+    background-color: #fcff00;
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 15pt;
+}
+
+#nav1 ul {
+    list-style: none;
+    /*הגדרת רוחב ומרכוז התפריט לאמצע*/
+    width: 900px;
+    margin: 0 auto;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        #nav1 ul li a {
+
+            display: inline-block;
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            width: 180px;
+            height: 40px;
+            padding-top: 10px;
+            font-size: 15pt;
+            background: linear-gradient(#fcff00 20%,#908900 80%);
+        }
+
+#first {
+    border-radius: 00px 70px 70px 0px;
+}
+
+#last {
+    border-radius: 70px 00px 00px 70px;
+}
+
+#nav1 ul li a:hover {
+    background: linear-gradient(#fcff00 100%,black 00%);
+}
+
+#nav1 ul li a:active {
+    background: linear-gradient(#828700 100%,black 00%);
+}
+
+
+#nav1 ul li ul {
+    display: none;
+    position: absolute;
+}
+
+#nav1 ul li:hover ul {
+    display: block;
+    width: 120px;
+}
+
+.laredet {
+    margin-top: 2.5px;
+}
+/*סוף שורת ניווט*/
+
+
+/*דף בית 1.0.0*/
+#image1 {
+    padding-top: 0px;
+    position: absolute;
+    display: inline-block;
+}
+
+#image-judo1 {
+    background-image: url(../image/judo11.png);
+    width: 450px;
+    height: 500px;
+    background-size: 100% 100%;
+}
+
+#judo_text {
+    display: block;
+    margin-top: 300px;
+    margin-right: 50px;
+    width: 350px;
+    height: 180px;
+    background-color: #0fffe9;
+    border-radius: 40px;
+    opacity: 0.5;
+    position: absolute;
+}
+
+#judo_text2 {
+    display: block;
+    width: 430px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    padding-top: 300px;
+    padding-right: 10px;
+}
+
+/*תמונה 2*/
+#image2 {
+    display: inline-block;
+    margin-right: 450px;
+}
+
+#image-street {
+    background-image: url(../image/MMA11.png);
+    width: 450px;
+    height: 500px;
+    background-size: 100% 100%;
+}
+
+#street_text {
+    display: block;
+    margin-top: 300px;
+    margin-right: 50px;
+    width: 350px;
+    height: 180px;
+    background-color: #676767;
+    border-radius: 40px;
+    opacity: 0.5;
+    position: absolute;
+}
+
+#street_text2 {
+    position: relative;
+    display: block;
+    width: 430px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    padding-top: 300px;
+    padding-right: 10px;
+}
+
+/*כתב*/
+.h2_1-0-0 {
+    padding-top: 10px;
+    font-size: 25pt;
+    padding-bottom: 5px;
+}
+
+.p_1-0-0 {
+    font-size: 15pt;
+}
+
+#judo_text2 .p_1-0-0 {
+    padding-top: 12px;
+}
+
+.gil {
+    padding-top: 10px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#judo_text2 .gil {
+    padding-top: 19px;
+}
+
+.klick_1-0-0 {
+    background-color: #02CE55;
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin-right: 145px;
+    margin-top: 5px;
+    text-decoration: none;
+    padding-top: 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+    .klick_1-0-0:hover {
+        background-color: #68ee0b;
+        width: 150px;
+        height: 40px;
+        display: block;
+        margin-right: 145px;
+        margin-top: 5px;
+        text-decoration: none;
+        padding-top: 10px;
+        color: black;
+        border-radius: 10px;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+
+    .klick_1-0-0:active {
+        background-color: #002601;
+        width: 150px;
+        height: 40px;
+        display: block;
+        margin-right: 145px;
+        margin-top: 5px;
+        text-decoration: none;
+        padding-top: 10px;
+        color: black;
+        border-radius: 10px;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+
+/*סוף דף בית 1.0.0*/
+/*על השיטה גודו 3.0.0*/
+#par3-0-0 {
+    display: inline-block;
+    float: right;
+    width: 450px;
+    padding-top: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+    #par3-0-0 h2 {
+        color: #e9f300;
+        font-size: 35pt;
+        margin-bottom: 10px;
+    }
+
+    #par3-0-0 p {
+        color: white;
+        font-size: 20pt;
+    }
+
+#img3-0-0 {
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 300px;
+    background-image: url(../image/img4.png);
+}
+/* סוף על השיטה גודו 3.0.0*/
+/*התחלה צוות המדריכים3.1.0*/
+#h3-1-0
+{
+    font-size:30pt;
+    color:#e9f300;
+    text-align:center;
+    padding-bottom:50px;
+}
+
+#yoni1
+{
+    display:inline-block;
+    margin-right:250px;
+}
+.bold
+{
+    font-weight: bold;
+}
+
+/*סוף צוות המדריכים 3.1.0*/
+/*התחלה דף נחיתה 2.4.0 ,3.4.0*/
+form {
+    display: block;
+    margin-right: 50px;
+}
+
+label {
+    color: white;
+}
+
+#FirstName, #LastName, #fone, #myMS {
+    color: black;
+}
+/*סוף דף נחיתה 2.4.0 ,3.4.0*/
